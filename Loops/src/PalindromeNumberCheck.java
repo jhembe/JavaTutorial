@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ChallengeEight {
+public class PalindromeNumberCheck {
     // checking for a palindrome number
     public static void main(String[] args){
         // Banner Message //

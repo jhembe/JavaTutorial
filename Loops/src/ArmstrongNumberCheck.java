@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ChallengeSix {
+public class ArmstrongNumberCheck {
     // find if the number is armstrong or not !!
     public static void main(String[] args){
 

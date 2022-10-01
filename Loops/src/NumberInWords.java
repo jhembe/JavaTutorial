@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ChallengeNine {
+public class NumberInWords {
     // Displaying numbers in words
     public static void main(String[] args){
         // Challenge Banner

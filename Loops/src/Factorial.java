@@ -1,4 +1,4 @@
-public class ChallengeThree {
+public class Factorial {
     // factorial program
     public static void main(String[] args){
         int n =5;

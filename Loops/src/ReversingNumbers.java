@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ChallengeSeven {
+public class ReversingNumbers {
     // Reversing a number challenge;
     public static void main(String[] args){
         // let's take our sample number

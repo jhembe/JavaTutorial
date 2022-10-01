@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ChallengeTwo {
+public class SumOf_n_Numbers {
     // Find Sum of n Numbers
     public static void main(String[] args){
 

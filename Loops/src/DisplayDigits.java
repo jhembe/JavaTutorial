@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ChallengeFour {
+public class DisplayDigits {
     // Displaying digits of a number
     public static void main(String[] args){
         // now let's take our little int digs

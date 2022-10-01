@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ChallengeFive {
+public class DigitCount {
     // Counting digits of a number
     public static void main(String[] args){
         // let's create a sample case integer
