@@ -37,7 +37,7 @@ public class FindPrime {
 
     public static void main(String[] args){
         int[] array = {12,45,32,2,3,7,90,134,23,65};
-        int number = 7;
+        int number = 9;
 
         findArrayPrime(array);
 
