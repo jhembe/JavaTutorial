@@ -29,6 +29,6 @@ public class Main {
         cyl1.radius = 12;
         cyl1.height = 28;
 
-        System.out.print("The volume is : "+cyl1.volume()+"\nThe Area is : "+cyl1.area());
+        System.out.print("The volume is : "+cyl1.volume()+"\nThe Area is : "+cyl1.area()+"\nThe Circumference is : "+cyl1.circumference());
     }
 }
