@@ -1,44 +1,45 @@
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class Question9 {
     public static void main(String[] args) {
-        // for 1D  array
-        int[] array = new int[100];
-        int[][] arrayy = new int[10][10];
-        Scanner input = new Scanner(System.in);
+        // Create a two-dimensional array of 100 integer elements
+        int[][] numbers = new int[10][10];
 
-        // getting user input
-        for(int i=0; i<array.length; i++){
-            System.out.println("Enter num : ");
-            array[i] = input.nextInt();
+        // Initialize the array with random numbers
+        for (int i = 0; i < numbers.length; i++) {
+            for (int j = 0; j < numbers[i].length; j++) {
+                numbers[i][j] = (int) (Math.random() * 100);
+            }
         }
-        // summation
+
+        // Perform summation of all elements
         int sum = 0;
-        for (int j : array) {
-            sum += j;
-        }
-        System.out.println("The Sum of all Elements is : " + sum);
-        System.out.println("The Average is : "+sum/array.length);
-
-        // for 2D
-        // for entering the values
-        for(int i = 0; i<arrayy.length; i++){
-            for(int j=0; j<arrayy[0].length;j++){
-                arrayy[i][j] = input.nextInt();
+        for (int[] row : numbers) {
+            for (int number : row) {
+                sum += number;
             }
         }
-        // for it's sum
-        int summ = 0,count = 0;
-        for(int i = 0; i<arrayy.length; i++){
-            for(int j=0; j<arrayy[0].length;j++){
-                summ = arrayy[i][j];
-                count++;
-            }
+        System.out.println("The sum of the numbers is: " + sum);
+
+        // Calculate the average
+        double average = (double) sum / (numbers.length * numbers[0].length);
+        System.out.println("The average of the numbers is: " + average);
+
+        // Flatten the array to a single dimension
+        int[] flatArray = Arrays.stream(numbers)
+                .flatMapToInt(Arrays::stream)
+                .toArray();
+
+        // Sort the array in ascending order
+        Arrays.sort(flatArray);
+        System.out.println("The numbers in ascending order are: " + Arrays.toString(flatArray));
+
+        // Sort the array in descending order
+        for (int i = 0; i < flatArray.length / 2; i++) {
+            int temp = flatArray[i];
+            flatArray[i] = flatArray[flatArray.length - 1 - i];
+            flatArray[flatArray.length - 1 - i] = temp;
         }
-        System.out.println("The Sum of all Elements is : " + summ);
-        System.out.println("The Average is : "+summ/count);
-
-
+        System.out.println("The numbers in descending order are: " + Arrays.toString(flatArray));
     }
 }
