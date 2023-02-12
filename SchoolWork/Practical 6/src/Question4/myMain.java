@@ -28,7 +28,6 @@ public class myMain {
         System.out.println("Area of the rectangle: " + rectangle.areaR());
 
         Triangle triangle = new Triangle();
-        triangle.setValues(19, 14);
         System.out.println("Area of the triangle: " + triangle.areaT());
     }
 }

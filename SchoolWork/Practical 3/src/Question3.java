@@ -44,6 +44,7 @@ public class Question3{
         System.out.println(num+"! = "+fact);
     }
     public static void main(String ...args){
+
         getNum();
     }
 }

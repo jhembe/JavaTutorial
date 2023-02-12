@@ -1,5 +1,7 @@
 package ParametrisedConstructor;
 
+import java.util.function.Predicate;
+
 class Parent{
     public Parent(){
         System.out.println("Non-Param of parent");
@@ -23,6 +25,8 @@ class Child extends Parent{
 }
 public class ParametrisedConstructor {
     public static void main(String[] args) {
+
         Child c = new Child(20,5);
+
     }
 }

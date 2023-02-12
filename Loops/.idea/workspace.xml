@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a64453b-c77d-44c2-ade5-ae4d7d832ff1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Abstract Classes/Abstract Classes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract Classes/src/AbstractClassPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract Classes/src/ExampleAbstract1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract Classes/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract Classes/src/StudentChallengeShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/Interfaces.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/CallBackMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/InterfaceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interfaces/src/PractisingInterfaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Martha/src/PrimeAlgoLinux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Martha/src/number.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Martha/src/prime.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SchoolWork/Practical 3/src/Question9a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SchoolWork/Practical 3/src/Question9b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SchoolWork/Practical 6/src/Question9/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testing/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testing/testing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inheritance/src/ParametrisedConstructor/ParametrisedConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Inheritance/src/ParametrisedConstructor/ParametrisedConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inheritance/src/SCInheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Inheritance/src/SCInheritance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Methods/src/FindGCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Methods/src/FindGCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchoolWork/Practical 1/src/Question10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SchoolWork/Practical 1/src/Question10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchoolWork/Practical 1/src/Question7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SchoolWork/Practical 1/src/Question7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchoolWork/Practical 1/src/Question8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SchoolWork/Practical 1/src/Question8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchoolWork/Practical 3/src/Question3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SchoolWork/Practical 3/src/Question3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchoolWork/Practical 3/src/Question8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SchoolWork/Practical 3/src/Question8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchoolWork/Practical 4/src/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SchoolWork/Practical 4/src/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchoolWork/Practical 4/src/Question2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SchoolWork/Practical 4/src/Question2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchoolWork/Practical 4/src/Question6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SchoolWork/Practical 4/src/Question6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchoolWork/Practical 6/src/Question4/myMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SchoolWork/Practical 6/src/Question4/myMain.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2KXgSWsADll6cZSGPOdi1nO1YtP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a64453b-c77d-44c2-ade5-ae4d7d832ff1" name="Changes" comment="" />
+      <created>1674126347207</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674126347207</updated>
+    </task>
+    <servers />
+  </component>
+</project>

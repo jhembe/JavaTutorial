@@ -5,7 +5,7 @@ public class FindGCD {
             if(num1 > num2){
                 num1 -= num2;
             }
-            else if(num2 > num1){
+            else {
                 num2 -= num1;
             }
         }
@@ -16,5 +16,10 @@ public class FindGCD {
     public static void main(String[] args){
         gcd(25,15);
         gcd(234,236);
+
+        int[] array = {1,2,3,4,5,6,7,8,9,10};
+        for (int j : array) {
+            System.out.println(j);
+        }
     }
 }

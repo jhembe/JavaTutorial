@@ -35,12 +35,18 @@ class Account{
 }
 
 class SavingsAccount extends Account{
-
-    public SavingsAccount(int accountNo, String name) {
+    String hisNme;
+    public SavingsAccount(String hisNme, int accountNo, String name) {
         super(accountNo, name);
     }
 
 }
 
 public class SCInheritance {
+    public static void main(String[] args) {
+        float myNum = 56.7868765577f;
+        System.out.println(Math.round(myNum));
+        Double d = 456.98234;
+        Double n = Math.r
+    }
 }
