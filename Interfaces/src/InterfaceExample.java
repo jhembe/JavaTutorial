@@ -1,4 +1,9 @@
 class Phone{
+    static class MyPhone{
+        void myName(){
+            System.out.println("My Phone");
+        }
+    }
     void call(){
         System.out.println("Phone calling");
     }
@@ -41,15 +46,19 @@ class SmartPhone extends Phone implements ICamera,IMusicPlayer{
     }
     @Override
     public void stop(){
-        System.out.println("Smartphone Music Stoped");
+        System.out.println("Smartphone Music Stopped");
     }
 }
 
 public class InterfaceExample {
     public static void main(String[] args) {
         SmartPhone s = new SmartPhone();
+        ICamera cm = new SmartPhone();
+        IMusicPlayer mp = new SmartPhone();
+
         Phone p = s;
         ICamera c = s;
+        Phone.MyPhone mpp = new Phone.MyPhone();
         IMusicPlayer m = s;
 
         p.call();

@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Book {
     // for it's instance varibles
     int bookId;
@@ -10,12 +12,16 @@ public class Book {
         this.bookName = bookName;
         this.author = author;
     }
-    
+
+
     // create method show details
     public void showDetails(){
         System.out.print("*****************************");
         System.out.println("\nBook ID : "+ bookId +"\nBook Name : " + bookName);
-        System.out.println("\nAuthor Name : " + author.authorName + "\nAuthor Age : " + author.authorAge);
+        System.out.println("\nAuthor Name : " + author.authorName + "\nAuthor Age : " + author.authorAge+"\nSpouse Name : " + author.spouseName);
         System.out.println("*****************************");
+
+
+
     }
 }

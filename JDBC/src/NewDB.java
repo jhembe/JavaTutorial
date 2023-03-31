@@ -7,6 +7,7 @@ public class NewDB {
             Connection connection = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/sonoo","acacia","password");
 
+            // create statement
             Statement statement = connection.createStatement();
             ResultSet rs = statement.executeQuery("SELECT * FROM emp");
 

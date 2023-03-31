@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+class Mainn {
     // they're caused at the user's end
     // Runtime errors means that the program will stop
 
@@ -40,7 +40,7 @@ public class Main {
         // using array
         try{
             int[] array = {10,3,4,0,76,0};
-            int r = array[0]/array[3];
+            int r = array[0]/array[9];
 
             // now let's make an array out of bound error
             System.out.println(r);

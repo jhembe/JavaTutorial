@@ -6,7 +6,7 @@ class NegativeDimensionException extends Exception{
 public class ThrowThrows {
     static int area(int l,int b) throws Exception{
         if (l < 0 || b < 0) {
-//            throw new Exception("Dont pass a negative number");
+//            throw new Exception("Don't pass a negative number");
             throw new NegativeDimensionException();
         }
         int a = l*b;
@@ -22,7 +22,6 @@ public class ThrowThrows {
         } catch (Exception e){
             System.out.println(e.getMessage());
         }
-
         return a;
     }
 
